@@ -1,6 +1,6 @@
 [project]
-name = "anonxmusic"
-version = "3.0.3"
+name = "ArcMusic"
+version = "1.0.0"
 description = "Telegram Group Calls Streaming bot with some useful features."
 readme = ".github/README.md"
 requires-python = ">=3.10"
