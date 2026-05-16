@@ -3,7 +3,7 @@
 <h2>Arc Music</h2>
 
 <b>Telegram Group Calls Streaming Bot</b><br>
-Supports YouTube, Spotify, Resso, Apple Music, SoundCloud and M3U8 links.
+Supports YouTube, M3U8 links.
 
 <a href="https://github.com/tusar404/ArcMusic/stargazers">
     <img src="https://img.shields.io/github/stars/tusar404/ArcMusic?color=blueviolet&logo=github&logoColor=black&style=for-the-badge" alt="Stars"/>
@@ -30,7 +30,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 <h2>🔥 Features</h2>
 
 - 🎧 Stream low-latency audio in real time to <b>Telegram group video chats</b>
-- 🌐 Supports multiple platforms like <b>YouTube, Spotify, Apple Music, SoundCloud</b>
+- 🌐 Supports platforms like <b>YouTube</b>
 - ⚡ Advanced queue management with auto-play
 - ⚙️ Easy deployment — works on Local, VPS, or Heroku
 - ❤️ Built with Python
