@@ -32,7 +32,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 - 🎧 Stream low-latency audio in real time to <b>Telegram group video chats</b>
 - 🌐 Supports platforms like <b>YouTube</b>
 - ⚡ Advanced queue management with auto-play
-- 🚀 <b>Powered by Arc API</b> for lightning-fast and reliable media downloading
+- 🚀 Powered by Arc API for lightning-fast and reliable media downloading
 - ⚙️ Easy deployment — works on Local, VPS, or Heroku
 - ❤️ Built with Python
 <hr>
@@ -44,7 +44,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 - <a href="https://www.python.org">Python 3.10+</a> installed  
 - <a href="https://deno.com/">deno</a> & <a href="https://ffmpeg.org/">ffmpeg</a> installed on your system  
 - Required variables mentioned in <a href="https://github.com/tusar404/ArcMusic/blob/anon/sample.env">sample.env</a>
-- 🔑 <b>Arc API Key:</b> Get your API key from <a href="https://portal.arcmusic.fun/register">portal.arcmusic.fun</a>
+- API Key: Get your API key from <a href="https://portal.arcmusic.fun/register">portal.arcmusic.fun</a>
 
 <details>
     <summary>
