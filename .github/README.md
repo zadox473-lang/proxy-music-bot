@@ -19,7 +19,7 @@ Supports YouTube, Spotify, Resso, Apple Music, SoundCloud and M3U8 links.
 </a>
 <br>
 
-<img src="https://github.com/tusar404/ArcMusic/blob/master/.github/arc.jpg" width="720" height="auto">
+<img src="https://github.com/tusar404/ArcMusic/blob/anon/.github/arc.jpg" width="720" height="auto">
 
 ArcMusic lets you stream high-quality and low-latency audio and video playback into telegram group video chats.<br>
 Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability and easy deployment on Heroku, VPS, or Docker.
@@ -42,7 +42,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 
 - <a href="https://www.python.org">Python 3.10+</a> installed  
 - <a href="https://deno.com/">deno</a> & <a href="https://ffmpeg.org/">ffmpeg</a> installed on your system  
-- Required variables mentioned in <a href="https://github.com/AnonymousX1025/AnonXMusic/blob/master/sample.env">sample.env</a>
+- Required variables mentioned in <a href="https://github.com/tusar404/ArcMusic/blob/anon/sample.env">sample.env</a>
 
 <details>
     <summary>
@@ -99,7 +99,7 @@ uv run python3 -m anony
     </summary>
 
 > Click on the button below to deploy on Heroku<br>
-    <a href="https://dashboard.heroku.com/new?template=https://github.com/AnonymousX1025/AnonXMusic">
+    <a href="https://dashboard.heroku.com/new?template=https://github.com/tusar404/ArcMusic">
         <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku"/>
     </a>
 </details>
@@ -122,7 +122,7 @@ MONGO_URL=mongodb+srv://
 SESSION=BQgfh...AA
 ```
 
-> 📝 Check <a href="https://github.com/AnonymousX1025/AnonXMusic/blob/master/config.py">config.py</a> for all available options.
+> 📝 Check <a href="https://github.com/tusar404/ArcMusic/blob/anon/config.py">config.py</a> for all available options.
 </details>
 
 <hr>
@@ -162,7 +162,7 @@ Contributions are welcome!
 
 <h2>🗒️ License</h2>
 
-This project is licensed under the <b>MIT License</b> — see <a href="https://github.com/tusar404/ArcMusic/blob/master/LICENSE">LICENSE</a> for details.
+This project is licensed under the <b>MIT License</b> — see <a href="https://github.com/tusar404/ArcMusic/blob/anon/LICENSE">LICENSE</a> for details.
 
 <hr>
 
