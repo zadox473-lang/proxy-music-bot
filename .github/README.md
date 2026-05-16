@@ -32,6 +32,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 - 🎧 Stream low-latency audio in real time to <b>Telegram group video chats</b>
 - 🌐 Supports platforms like <b>YouTube</b>
 - ⚡ Advanced queue management with auto-play
+- 🚀 <b>Powered by Arc API</b> for lightning-fast and reliable media downloading
 - ⚙️ Easy deployment — works on Local, VPS, or Heroku
 - ❤️ Built with Python
 <hr>
@@ -43,6 +44,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 - <a href="https://www.python.org">Python 3.10+</a> installed  
 - <a href="https://deno.com/">deno</a> & <a href="https://ffmpeg.org/">ffmpeg</a> installed on your system  
 - Required variables mentioned in <a href="https://github.com/tusar404/ArcMusic/blob/anon/sample.env">sample.env</a>
+- 🔑 <b>Arc API Key:</b> Get your API key from <a href="https://portal.arcmusic.fun/register">portal.arcmusic.fun</a>
 
 <details>
     <summary>
@@ -53,7 +55,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 <h4>🐧 Linux/macOS</h4>
 
 ```bash
-git clone https://github.com/tusar404/ArcMusic && cd ArcMusic
+git clone -b anon --single-branch https://github.com/tusar404/ArcMusic && cd ArcMusic
 
 # Install uv
 curl -Ls https://astral.sh/uv/install.sh | sh
@@ -73,7 +75,7 @@ bash start
 <h4>🪟 Windows (PowerShell)</h4>
 
 ```bash
-git clone https://github.com/tusar404/ArcMusic && cd ArcMusic
+git clone -b anon --single-branch https://github.com/tusar404/ArcMusic && cd ArcMusic
 
 # Install uv
 irm https://astral.sh/uv/install.ps1 | iex
@@ -116,6 +118,7 @@ Edit <code>.env</code> (or set variables in your hosting environment):
 API_ID=123456
 API_HASH=abcdef1234567890
 BOT_TOKEN=123456:ABC-DEF
+API_KEY=ARC123
 OWNER_ID=123456789
 LOGGER_ID=-1001234567890
 MONGO_URL=mongodb+srv://
