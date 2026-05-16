@@ -1,17 +1,17 @@
 <div align="center">
 
-<h2>AnonXMusic</h2>
+<h2>Arc Music</h2>
 
 <b>Telegram Group Calls Streaming Bot</b><br>
 Supports YouTube, Spotify, Resso, Apple Music, SoundCloud and M3U8 links.
 
-<a href="https://github.com/AnonymousX1025/AnonXMusic/stargazers">
-    <img src="https://img.shields.io/github/stars/AnonymousX1025/AnonXMusic?color=blueviolet&logo=github&logoColor=black&style=for-the-badge" alt="Stars"/>
+<a href="https://github.com/tusar404/ArcMusic/stargazers">
+    <img src="https://img.shields.io/github/stars/tusar404/ArcMusic?color=blueviolet&logo=github&logoColor=black&style=for-the-badge" alt="Stars"/>
 </a>
-<a href="https://github.com/AnonymousX1025/AnonXMusic/network/members">
-    <img src="https://img.shields.io/github/forks/AnonymousX1025/AnonXMusic?color=blueviolet&logo=github&logoColor=black&style=for-the-badge" alt="Forks"/>
+<a href="https://github.com/tusar404/ArcMusic/network/members">
+    <img src="https://img.shields.io/github/forks/tusar404/ArcMusic?color=blueviolet&logo=github&logoColor=black&style=for-the-badge" alt="Forks"/>
 </a>
-<a href="https://github.com/AnonymousX1025/AnonXMusic/blob/master/LICENSE">
+<a href="https://github.com/tusar404/ArcMusic/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License"/>
 </a>
 <a href="https://www.python.org/">
@@ -19,9 +19,9 @@ Supports YouTube, Spotify, Resso, Apple Music, SoundCloud and M3U8 links.
 </a>
 <br>
 
-<img src="https://github.com/AnonymousX1025/AnonXMusic/blob/master/.github/anonx.jpg" width="720" height="auto">
+<img src="https://github.com/tusar404/ArcMusic/blob/master/.github/arc.jpg" width="720" height="auto">
 
-AnonXMusic lets you stream high-quality and low-latency audio and video playback into telegram group video chats.<br>
+ArcMusic lets you stream high-quality and low-latency audio and video playback into telegram group video chats.<br>
 Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability and easy deployment on Heroku, VPS, or Docker.
 </div>
 
@@ -53,7 +53,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 <h4>🐧 Linux/macOS</h4>
 
 ```bash
-git clone https://github.com/AnonymousX1025/AnonXMusic && cd AnonXMusic
+git clone https://github.com/tusar404/ArcMusic && cd ArcMusic
 
 # Install uv
 curl -Ls https://astral.sh/uv/install.sh | sh
@@ -73,7 +73,7 @@ bash start
 <h4>🪟 Windows (PowerShell)</h4>
 
 ```bash
-git clone https://github.com/AnonymousX1025/AnonXMusic && cd AnonXMusic
+git clone https://github.com/tusar404/ArcMusic && cd ArcMusic
 
 # Install uv
 irm https://astral.sh/uv/install.ps1 | iex
@@ -162,21 +162,21 @@ Contributions are welcome!
 
 <h2>🗒️ License</h2>
 
-This project is licensed under the <b>MIT License</b> — see <a href="https://github.com/AnonymousX1025/AnonXMusic/blob/master/LICENSE">LICENSE</a> for details.
+This project is licensed under the <b>MIT License</b> — see <a href="https://github.com/tusar404/ArcMusic/blob/master/LICENSE">LICENSE</a> for details.
 
 <hr>
 
 <h2>🤞 Updates and support</h2>
 
-- <a href="https://fallenx.t.me">Updates channel</a>
-- <a href="https://DevilsHeavenMF.t.me">Support group</a>
+- <a href="https://ArcUpdates.t.me">Updates channel</a>
+- <a href="https://ArcChatz.t.me">Support group</a>
 
 <hr>
 
 <h2>👀 Acknowledgements</h2>
 
 - Inspired by other open-source Telegram music bots.
-- Thanks to all the <a href="https://github.com/AnonymousX1025/AnonXMusic/graphs/contributors">contributors</a>.
+- Thanks to all the <a href="https://github.com/tusar404/ArcMusic/graphs/contributors">contributors</a>.
 
 <hr>
 
