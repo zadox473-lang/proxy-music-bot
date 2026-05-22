@@ -57,12 +57,8 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 ```bash
 git clone -b anon --single-branch https://github.com/tusar404/ArcMusic && cd ArcMusic
 
-# Install uv
-curl -Ls https://astral.sh/uv/install.sh | sh
-export PATH="$HOME/.local/bin:$PATH"
-
 # Install dependencies
-uv sync --frozen
+pip3 install -U -r requirements.txt
 
 # Rename and configure environment variables
 mv sample.env .env
@@ -77,18 +73,15 @@ bash start
 ```bash
 git clone -b anon --single-branch https://github.com/tusar404/ArcMusic && cd ArcMusic
 
-# Install uv
-irm https://astral.sh/uv/install.ps1 | iex
-
 # Install dependencies
-uv sync --frozen
+pip3 install -U -r requirements.txt
 
 # Rename and configure environment variables
 mv sample.env .env
 # Edit .env with your credentials
 
 # Start the bot
-uv run python3 -m anony
+bash start
 
 > ⭐ or use Git Bash or WSL to run `bash start`.
 ```
