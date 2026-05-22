@@ -2,7 +2,9 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
-RUN apt-get update -y \
+COPY requirements.txt .
+
+RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends ffmpeg curl unzip \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
@@ -12,12 +14,8 @@ RUN apt-get update -y \
 ENV DENO_INSTALL="/root/.deno"
 ENV PATH="${DENO_INSTALL}/bin:${PATH}"
 
-RUN curl -Ls https://astral.sh/uv/install.sh | sh
-ENV PATH="/root/.local/bin:${PATH}"
 
-COPY pyproject.toml uv.lock ./
-
-RUN uv sync --frozen
+RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 
 COPY . .
 
